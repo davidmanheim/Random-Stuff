@@ -1,0 +1,1 @@
+javascript:{$.ajax({ url: "https://cdn.rawgit.com/laCour/slack-night-mode/master/css/black.css", success: function(css) { $("<style></style>").appendTo("head").html(css.slice(35).slice(0, -2));}});};
